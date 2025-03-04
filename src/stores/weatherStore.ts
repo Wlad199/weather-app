@@ -13,8 +13,8 @@ export const useWeatherStore = defineStore('weatherStore', () => {
 	const places = ref<IWeatherApi[]>([])
 
 
-	const CITY_URL = 'http://api.weatherapi.com/v1/search.json?key=e06a680c7a934767860155344252402'
-	const WEATHER_URL = 'http://api.weatherapi.com/v1/forecast.json?key=e06a680c7a934767860155344252402'
+	const CITY_URL = 'https://api.weatherapi.com/v1/search.json?key=e06a680c7a934767860155344252402'
+	const WEATHER_URL = 'https://api.weatherapi.com/v1/forecast.json?key=e06a680c7a934767860155344252402'
 
 
 	const handleSearch = () => {
